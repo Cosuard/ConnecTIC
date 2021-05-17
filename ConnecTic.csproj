@@ -68,6 +68,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -81,6 +82,51 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\business_application_addmale_useradd_insert_add_user_client_2312.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete_delete_deleteusers_delete_male_user_maleclient_2348.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\document_add_256_icon-icons.com_75994.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\document_delete_256_icon-icons.com_75995.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\emblemunreadable_93487.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo-rombos-brillantes_1053-185.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\grjw.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lock-padlock-symbol-for-protect_icon-icons.com_56926.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pficture1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\round-account-button-with-user-inside_icon-icons.com_72596.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settings-cogwheel-button_icon-icons.com_72559.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unnamed.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vts.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iush.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

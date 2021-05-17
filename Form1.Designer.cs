@@ -71,6 +71,13 @@ namespace ConnecTic
             // 
             // btnValidar
             // 
+            this.btnValidar.BackgroundImage = global::ConnecTic.Properties.Resources.Pficture1;
+            this.btnValidar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnValidar.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btnValidar.FlatAppearance.BorderSize = 0;
+            this.btnValidar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
+            this.btnValidar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+            this.btnValidar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnValidar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnValidar.Location = new System.Drawing.Point(12, 334);
             this.btnValidar.Name = "btnValidar";
@@ -217,7 +224,7 @@ namespace ConnecTic
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.ClientSize = new System.Drawing.Size(955, 701);
+            this.ClientSize = new System.Drawing.Size(955, 420);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.grpPerfil);
             this.Controls.Add(this.btnValidar);
@@ -225,6 +232,7 @@ namespace ConnecTic
             this.Controls.Add(this.pctQR);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lblQR);
+            this.Cursor = System.Windows.Forms.Cursors.Hand;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FormValidacion";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
