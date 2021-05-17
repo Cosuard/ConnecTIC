@@ -42,15 +42,19 @@ namespace ConnecTic
             this.lblCodEstudiantil = new System.Windows.Forms.Label();
             this.lblNombre = new System.Windows.Forms.Label();
             this.btnExit = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.panel1 = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.pctQR)).BeginInit();
             this.grpPerfil.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // lblQR
             // 
             this.lblQR.AutoSize = true;
             this.lblQR.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblQR.Location = new System.Drawing.Point(64, 17);
+            this.lblQR.Location = new System.Drawing.Point(64, 77);
             this.lblQR.Name = "lblQR";
             this.lblQR.Size = new System.Drawing.Size(84, 16);
             this.lblQR.TabIndex = 0;
@@ -58,7 +62,7 @@ namespace ConnecTic
             // 
             // pctQR
             // 
-            this.pctQR.Location = new System.Drawing.Point(13, 48);
+            this.pctQR.Location = new System.Drawing.Point(13, 108);
             this.pctQR.Name = "pctQR";
             this.pctQR.Size = new System.Drawing.Size(182, 190);
             this.pctQR.TabIndex = 1;
@@ -67,7 +71,7 @@ namespace ConnecTic
             // btnValidar
             // 
             this.btnValidar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnValidar.Location = new System.Drawing.Point(13, 267);
+            this.btnValidar.Location = new System.Drawing.Point(12, 334);
             this.btnValidar.Name = "btnValidar";
             this.btnValidar.Size = new System.Drawing.Size(182, 32);
             this.btnValidar.TabIndex = 2;
@@ -85,9 +89,9 @@ namespace ConnecTic
             this.grpPerfil.Controls.Add(this.lblCodEstudiantil);
             this.grpPerfil.Controls.Add(this.lblNombre);
             this.grpPerfil.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.grpPerfil.Location = new System.Drawing.Point(280, 48);
+            this.grpPerfil.Location = new System.Drawing.Point(448, 108);
             this.grpPerfil.Name = "grpPerfil";
-            this.grpPerfil.Size = new System.Drawing.Size(380, 190);
+            this.grpPerfil.Size = new System.Drawing.Size(449, 190);
             this.grpPerfil.TabIndex = 3;
             this.grpPerfil.TabStop = false;
             this.grpPerfil.Text = "Perfil";
@@ -171,7 +175,7 @@ namespace ConnecTic
             this.btnExit.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnExit.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnExit.Location = new System.Drawing.Point(672, 5);
+            this.btnExit.Location = new System.Drawing.Point(904, 68);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(33, 25);
             this.btnExit.TabIndex = 4;
@@ -179,15 +183,44 @@ namespace ConnecTic
             this.btnExit.UseVisualStyleBackColor = false;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(279, 77);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(100, 16);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Foto de perfil";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Location = new System.Drawing.Point(229, 108);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(182, 190);
+            this.pictureBox1.TabIndex = 1;
+            this.pictureBox1.TabStop = false;
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(956, 36);
+            this.panel1.TabIndex = 5;
+            // 
             // FormValidacion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(710, 320);
+            this.ClientSize = new System.Drawing.Size(955, 701);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.grpPerfil);
             this.Controls.Add(this.btnValidar);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.pctQR);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.lblQR);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FormValidacion";
@@ -196,6 +229,7 @@ namespace ConnecTic
             ((System.ComponentModel.ISupportInitialize)(this.pctQR)).EndInit();
             this.grpPerfil.ResumeLayout(false);
             this.grpPerfil.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -216,6 +250,9 @@ namespace ConnecTic
         private System.Windows.Forms.TextBox txtNombre;
         private System.Windows.Forms.TextBox txtRol;
         private System.Windows.Forms.Label lblRol;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Panel panel1;
     }
 }
 
