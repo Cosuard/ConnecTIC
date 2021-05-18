@@ -28,3 +28,13 @@ C:\Users\Andres\ConnecTIC\Registro\obj\Debug\Registro.csproj.CoreCompileInputs.c
 C:\Users\Andres\ConnecTIC\Registro\obj\Debug\Registro.csproj.CopyComplete
 C:\Users\Andres\ConnecTIC\Registro\obj\Debug\Registro.exe
 C:\Users\Andres\ConnecTIC\Registro\obj\Debug\Registro.pdb
+C:\Users\Andres\ConnecTIC\Registro\bin\Debug\AForge.dll
+C:\Users\Andres\ConnecTIC\Registro\bin\Debug\AForge.Video.DirectShow.dll
+C:\Users\Andres\ConnecTIC\Registro\bin\Debug\AForge.Video.dll
+C:\Users\Andres\ConnecTIC\Registro\bin\Debug\zxing.dll
+C:\Users\Andres\ConnecTIC\Registro\bin\Debug\zxing.presentation.dll
+C:\Users\Andres\ConnecTIC\Registro\bin\Debug\AForge.xml
+C:\Users\Andres\ConnecTIC\Registro\bin\Debug\AForge.Video.xml
+C:\Users\Andres\ConnecTIC\Registro\bin\Debug\AForge.Video.DirectShow.xml
+C:\Users\Andres\ConnecTIC\Registro\bin\Debug\zxing.xml
+C:\Users\Andres\ConnecTIC\Registro\bin\Debug\zxing.presentation.xml
