@@ -22,7 +22,7 @@ namespace Registro
 
         //identificar los dispositivos de grabación conectados al equipo
         FilterInfoCollection filterInfoCollection;
-        VideoCaptureDevice capturarDispositivos;
+        VideoCaptureDevice capturarVideo;
 
 
         private void btnSalirVal_Click(object sender, EventArgs e)
@@ -30,7 +30,7 @@ namespace Registro
             if (MessageBox.Show("¿Desea cerrar la aplicación?", "Confirmación", MessageBoxButtons.YesNo, MessageBoxIcon.Information) == DialogResult.Yes)
                 Application.Exit();
             else
-                return;
+                    return;
         }
 
         private void FormValidacion_Load(object sender, EventArgs e)
@@ -52,9 +52,9 @@ namespace Registro
 
         private void btnValidar_Click(object sender, EventArgs e)
         {
-            capturarDispositivos = new VideoCaptureDevice(filterInfoCollection[cmbCamara.SelectedIndex].MonikerString);
-            capturarDispositivos.NewFrame += CaptureDevice_NewFrame;
-            capturarDispositivos.Start();
+            capturarVideo = new VideoCaptureDevice(filterInfoCollection[cmbCamara.SelectedIndex].MonikerString);
+            capturarVideo.NewFrame += CaptureDevice_NewFrame;
+            capturarVideo.Start();
             timer1.Start();
         }
 
@@ -65,8 +65,8 @@ namespace Registro
 
         private void FormValidacion_FormClosing(object sender, FormClosingEventArgs e)
         {
-            if (capturarDispositivos.IsRunning)
-                capturarDispositivos.Stop();
+            if (capturarVideo.IsRunning)
+                capturarVideo.Stop();
         }
 
         private void timer1_Tick(object sender, EventArgs e)
@@ -80,8 +80,8 @@ namespace Registro
                     txtInfoEst.Text = resultado.ToString();
                     MessageBox.Show("Está autorizado para ingresar", "Autorización", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     timer1.Stop();
-                    if (capturarDispositivos.IsRunning) 
-                        capturarDispositivos.Stop();
+                    if (capturarVideo.IsRunning) 
+                        capturarVideo.Stop();
                 }
             }
         }
