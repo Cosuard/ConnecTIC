@@ -1,0 +1,22 @@
+G:\Semestre actual\POO\Proyecto de aula\ConnecTic\bin\Debug\ConnecTic.exe.config
+G:\Semestre actual\POO\Proyecto de aula\ConnecTic\bin\Debug\ConnecTic.exe
+G:\Semestre actual\POO\Proyecto de aula\ConnecTic\bin\Debug\ConnecTic.pdb
+G:\Semestre actual\POO\Proyecto de aula\ConnecTic\obj\Debug\ConnecTic.csprojAssemblyReference.cache
+G:\Semestre actual\POO\Proyecto de aula\ConnecTic\obj\Debug\ConnecTic.Properties.Resources.resources
+G:\Semestre actual\POO\Proyecto de aula\ConnecTic\obj\Debug\ConnecTic.csproj.GenerateResource.cache
+G:\Semestre actual\POO\Proyecto de aula\ConnecTic\obj\Debug\ConnecTic.csproj.CoreCompileInputs.cache
+G:\Semestre actual\POO\Proyecto de aula\ConnecTic\obj\Debug\ConnecTic.exe
+G:\Semestre actual\POO\Proyecto de aula\ConnecTic\obj\Debug\ConnecTic.pdb
+G:\Semestre actual\POO\Proyecto de aula\ConnecTic\obj\Debug\ConnecTic.FormValidacion.resources
+C:\Users\Andres\ConnecTIC\bin\Debug\ConnecTic.exe.config
+C:\Users\Andres\ConnecTIC\bin\Debug\ConnecTic.exe
+C:\Users\Andres\ConnecTIC\bin\Debug\ConnecTic.pdb
+C:\Users\Andres\ConnecTIC\bin\Debug\Bunifu_UI_v1.5.3.dll
+C:\Users\Andres\ConnecTIC\obj\Debug\ConnecTic.csprojAssemblyReference.cache
+C:\Users\Andres\ConnecTIC\obj\Debug\ConnecTic.FormValidacion.resources
+C:\Users\Andres\ConnecTIC\obj\Debug\ConnecTic.Properties.Resources.resources
+C:\Users\Andres\ConnecTIC\obj\Debug\ConnecTic.csproj.GenerateResource.cache
+C:\Users\Andres\ConnecTIC\obj\Debug\ConnecTic.csproj.CoreCompileInputs.cache
+C:\Users\Andres\ConnecTIC\obj\Debug\ConnecTic.csproj.CopyComplete
+C:\Users\Andres\ConnecTIC\obj\Debug\ConnecTic.exe
+C:\Users\Andres\ConnecTIC\obj\Debug\ConnecTic.pdb
