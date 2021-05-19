@@ -47,23 +47,6 @@ namespace Registro
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.grpFormulario = new System.Windows.Forms.GroupBox();
-            this.grpFormulario2 = new System.Windows.Forms.GroupBox();
-            this.bunifuThinButton25 = new Bunifu.Framework.UI.BunifuThinButton2();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.bunifuThinButton24 = new Bunifu.Framework.UI.BunifuThinButton2();
-            this.comboBox4 = new System.Windows.Forms.ComboBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.bunifuThinButton23 = new Bunifu.Framework.UI.BunifuThinButton2();
-            this.textBox5 = new System.Windows.Forms.TextBox();
             this.btnGuardar = new Bunifu.Framework.UI.BunifuThinButton2();
             this.pctCodQR = new System.Windows.Forms.PictureBox();
             this.btnFoto = new Bunifu.Framework.UI.BunifuThinButton2();
@@ -82,6 +65,23 @@ namespace Registro
             this.lblNombre = new System.Windows.Forms.Label();
             this.txtApellidoEst = new System.Windows.Forms.TextBox();
             this.txtNombreEst = new System.Windows.Forms.TextBox();
+            this.grpFormulario2 = new System.Windows.Forms.GroupBox();
+            this.bunifuThinButton25 = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.bunifuThinButton24 = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.comboBox4 = new System.Windows.Forms.ComboBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.bunifuThinButton23 = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.textBox5 = new System.Windows.Forms.TextBox();
             this.cmbLista = new System.Windows.Forms.ComboBox();
             this.grpE = new System.Windows.Forms.GroupBox();
             this.rdEmpleado = new System.Windows.Forms.RadioButton();
@@ -93,11 +93,11 @@ namespace Registro
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.grpFormulario.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pctCodQR)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctFotoEst)).BeginInit();
             this.grpFormulario2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pctCodQR)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pctFotoEst)).BeginInit();
             this.grpE.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pctLogo)).BeginInit();
             this.SuspendLayout();
@@ -310,6 +310,242 @@ namespace Registro
             this.grpFormulario.TabStop = false;
             this.grpFormulario.Text = "Formulario de Registro";
             this.grpFormulario.Visible = false;
+            // 
+            // btnGuardar
+            // 
+            this.btnGuardar.ActiveBorderThickness = 1;
+            this.btnGuardar.ActiveCornerRadius = 20;
+            this.btnGuardar.ActiveFillColor = System.Drawing.Color.Transparent;
+            this.btnGuardar.ActiveForecolor = System.Drawing.Color.Transparent;
+            this.btnGuardar.ActiveLineColor = System.Drawing.Color.White;
+            this.btnGuardar.BackColor = System.Drawing.Color.White;
+            this.btnGuardar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnGuardar.BackgroundImage")));
+            this.btnGuardar.ButtonText = "Guardar";
+            this.btnGuardar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnGuardar.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGuardar.ForeColor = System.Drawing.Color.MidnightBlue;
+            this.btnGuardar.IdleBorderThickness = 1;
+            this.btnGuardar.IdleCornerRadius = 20;
+            this.btnGuardar.IdleFillColor = System.Drawing.Color.White;
+            this.btnGuardar.IdleForecolor = System.Drawing.Color.MidnightBlue;
+            this.btnGuardar.IdleLineColor = System.Drawing.Color.MidnightBlue;
+            this.btnGuardar.Location = new System.Drawing.Point(520, 494);
+            this.btnGuardar.Margin = new System.Windows.Forms.Padding(5);
+            this.btnGuardar.Name = "btnGuardar";
+            this.btnGuardar.Size = new System.Drawing.Size(181, 41);
+            this.btnGuardar.TabIndex = 19;
+            this.btnGuardar.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);
+            // 
+            // pctCodQR
+            // 
+            this.pctCodQR.Location = new System.Drawing.Point(520, 294);
+            this.pctCodQR.Name = "pctCodQR";
+            this.pctCodQR.Size = new System.Drawing.Size(183, 178);
+            this.pctCodQR.TabIndex = 18;
+            this.pctCodQR.TabStop = false;
+            // 
+            // btnFoto
+            // 
+            this.btnFoto.ActiveBorderThickness = 1;
+            this.btnFoto.ActiveCornerRadius = 20;
+            this.btnFoto.ActiveFillColor = System.Drawing.Color.Transparent;
+            this.btnFoto.ActiveForecolor = System.Drawing.Color.Transparent;
+            this.btnFoto.ActiveLineColor = System.Drawing.Color.White;
+            this.btnFoto.BackColor = System.Drawing.Color.White;
+            this.btnFoto.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnFoto.BackgroundImage")));
+            this.btnFoto.ButtonText = "Tomar Foto";
+            this.btnFoto.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnFoto.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnFoto.ForeColor = System.Drawing.Color.MidnightBlue;
+            this.btnFoto.IdleBorderThickness = 1;
+            this.btnFoto.IdleCornerRadius = 20;
+            this.btnFoto.IdleFillColor = System.Drawing.Color.White;
+            this.btnFoto.IdleForecolor = System.Drawing.Color.MidnightBlue;
+            this.btnFoto.IdleLineColor = System.Drawing.Color.MidnightBlue;
+            this.btnFoto.Location = new System.Drawing.Point(520, 232);
+            this.btnFoto.Margin = new System.Windows.Forms.Padding(5);
+            this.btnFoto.Name = "btnFoto";
+            this.btnFoto.Size = new System.Drawing.Size(181, 41);
+            this.btnFoto.TabIndex = 17;
+            this.btnFoto.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // btnGenerar
+            // 
+            this.btnGenerar.ActiveBorderThickness = 1;
+            this.btnGenerar.ActiveCornerRadius = 20;
+            this.btnGenerar.ActiveFillColor = System.Drawing.Color.Transparent;
+            this.btnGenerar.ActiveForecolor = System.Drawing.Color.Transparent;
+            this.btnGenerar.ActiveLineColor = System.Drawing.Color.White;
+            this.btnGenerar.BackColor = System.Drawing.Color.White;
+            this.btnGenerar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnGenerar.BackgroundImage")));
+            this.btnGenerar.ButtonText = "Generar";
+            this.btnGenerar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnGenerar.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGenerar.ForeColor = System.Drawing.Color.MidnightBlue;
+            this.btnGenerar.IdleBorderThickness = 1;
+            this.btnGenerar.IdleCornerRadius = 20;
+            this.btnGenerar.IdleFillColor = System.Drawing.Color.White;
+            this.btnGenerar.IdleForecolor = System.Drawing.Color.MidnightBlue;
+            this.btnGenerar.IdleLineColor = System.Drawing.Color.MidnightBlue;
+            this.btnGenerar.Location = new System.Drawing.Point(222, 431);
+            this.btnGenerar.Margin = new System.Windows.Forms.Padding(5);
+            this.btnGenerar.Name = "btnGenerar";
+            this.btnGenerar.Size = new System.Drawing.Size(181, 41);
+            this.btnGenerar.TabIndex = 16;
+            this.btnGenerar.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnGenerar.Click += new System.EventHandler(this.btnGenerar_Click);
+            // 
+            // pctFotoEst
+            // 
+            this.pctFotoEst.Location = new System.Drawing.Point(518, 39);
+            this.pctFotoEst.Name = "pctFotoEst";
+            this.pctFotoEst.Size = new System.Drawing.Size(183, 178);
+            this.pctFotoEst.TabIndex = 15;
+            this.pctFotoEst.TabStop = false;
+            // 
+            // cmbProgramaEst
+            // 
+            this.cmbProgramaEst.Font = new System.Drawing.Font("Perpetua", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbProgramaEst.FormattingEnabled = true;
+            this.cmbProgramaEst.Items.AddRange(new object[] {
+            "Administración de Empresas",
+            "Contaduría Pública",
+            "Mercadeo",
+            "Negocios Internacionales",
+            "Tecnología en Gestión del Talento Humano",
+            "Tecnología en Gestión Empresarial",
+            "Tecnología en Mercadeo y Ventas",
+            "Tecnología en Gestión de Negocios Internacionales",
+            "Ingeniería Electrónica",
+            "Ingeniería Industrial",
+            "Ingeniería de Sistemas",
+            "Tecnología en Sistemas",
+            "Ingeniería en Inteligencia de Negocios",
+            "Animación",
+            "Artes Visuales",
+            "Diseño Gráfico",
+            "Diseño de Modas",
+            "Realización y Producción Musical",
+            "Tecnología en Diseño Gráfico",
+            "Tecnología en Producción de Moda"});
+            this.cmbProgramaEst.Location = new System.Drawing.Point(191, 369);
+            this.cmbProgramaEst.Name = "cmbProgramaEst";
+            this.cmbProgramaEst.Size = new System.Drawing.Size(271, 31);
+            this.cmbProgramaEst.TabIndex = 14;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft PhagsPa", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(6, 375);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(85, 22);
+            this.label6.TabIndex = 13;
+            this.label6.Text = "Programa";
+            // 
+            // txtCodEst
+            // 
+            this.txtCodEst.Font = new System.Drawing.Font("Perpetua", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCodEst.Location = new System.Drawing.Point(191, 303);
+            this.txtCodEst.Name = "txtCodEst";
+            this.txtCodEst.Size = new System.Drawing.Size(271, 30);
+            this.txtCodEst.TabIndex = 12;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft PhagsPa", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(6, 304);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(149, 22);
+            this.label5.TabIndex = 9;
+            this.label5.Text = "Código Estudiantil";
+            // 
+            // txtCorreoEst
+            // 
+            this.txtCorreoEst.Font = new System.Drawing.Font("Perpetua", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCorreoEst.Location = new System.Drawing.Point(191, 232);
+            this.txtCorreoEst.Name = "txtCorreoEst";
+            this.txtCorreoEst.Size = new System.Drawing.Size(271, 30);
+            this.txtCorreoEst.TabIndex = 8;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft PhagsPa", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(-3, 238);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(160, 22);
+            this.label4.TabIndex = 7;
+            this.label4.Text = "Correo Institucional";
+            // 
+            // txtIdentificacionEst
+            // 
+            this.txtIdentificacionEst.Font = new System.Drawing.Font("Perpetua", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtIdentificacionEst.Location = new System.Drawing.Point(259, 164);
+            this.txtIdentificacionEst.Name = "txtIdentificacionEst";
+            this.txtIdentificacionEst.Size = new System.Drawing.Size(203, 30);
+            this.txtIdentificacionEst.TabIndex = 6;
+            // 
+            // cmbIdentificacionEst
+            // 
+            this.cmbIdentificacionEst.Font = new System.Drawing.Font("Perpetua", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbIdentificacionEst.FormattingEnabled = true;
+            this.cmbIdentificacionEst.Items.AddRange(new object[] {
+            "C.C",
+            "C.E",
+            "PEP"});
+            this.cmbIdentificacionEst.Location = new System.Drawing.Point(191, 164);
+            this.cmbIdentificacionEst.Name = "cmbIdentificacionEst";
+            this.cmbIdentificacionEst.Size = new System.Drawing.Size(62, 31);
+            this.cmbIdentificacionEst.TabIndex = 5;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft PhagsPa", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(6, 170);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(112, 22);
+            this.label3.TabIndex = 4;
+            this.label3.Text = "Identificación";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft PhagsPa", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(6, 109);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(79, 22);
+            this.label2.TabIndex = 3;
+            this.label2.Text = "Apellidos";
+            // 
+            // lblNombre
+            // 
+            this.lblNombre.AutoSize = true;
+            this.lblNombre.Font = new System.Drawing.Font("Microsoft PhagsPa", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNombre.Location = new System.Drawing.Point(6, 45);
+            this.lblNombre.Name = "lblNombre";
+            this.lblNombre.Size = new System.Drawing.Size(73, 22);
+            this.lblNombre.TabIndex = 2;
+            this.lblNombre.Text = "Nombre";
+            // 
+            // txtApellidoEst
+            // 
+            this.txtApellidoEst.Font = new System.Drawing.Font("Perpetua", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtApellidoEst.Location = new System.Drawing.Point(191, 103);
+            this.txtApellidoEst.Name = "txtApellidoEst";
+            this.txtApellidoEst.Size = new System.Drawing.Size(271, 30);
+            this.txtApellidoEst.TabIndex = 1;
+            // 
+            // txtNombreEst
+            // 
+            this.txtNombreEst.Font = new System.Drawing.Font("Perpetua", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNombreEst.Location = new System.Drawing.Point(191, 39);
+            this.txtNombreEst.Name = "txtNombreEst";
+            this.txtNombreEst.Size = new System.Drawing.Size(271, 30);
+            this.txtNombreEst.TabIndex = 0;
             // 
             // grpFormulario2
             // 
@@ -536,241 +772,6 @@ namespace Registro
             this.textBox5.Size = new System.Drawing.Size(271, 28);
             this.textBox5.TabIndex = 1;
             // 
-            // btnGuardar
-            // 
-            this.btnGuardar.ActiveBorderThickness = 1;
-            this.btnGuardar.ActiveCornerRadius = 20;
-            this.btnGuardar.ActiveFillColor = System.Drawing.Color.Transparent;
-            this.btnGuardar.ActiveForecolor = System.Drawing.Color.Transparent;
-            this.btnGuardar.ActiveLineColor = System.Drawing.Color.White;
-            this.btnGuardar.BackColor = System.Drawing.Color.White;
-            this.btnGuardar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnGuardar.BackgroundImage")));
-            this.btnGuardar.ButtonText = "Guardar";
-            this.btnGuardar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnGuardar.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnGuardar.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.btnGuardar.IdleBorderThickness = 1;
-            this.btnGuardar.IdleCornerRadius = 20;
-            this.btnGuardar.IdleFillColor = System.Drawing.Color.White;
-            this.btnGuardar.IdleForecolor = System.Drawing.Color.MidnightBlue;
-            this.btnGuardar.IdleLineColor = System.Drawing.Color.MidnightBlue;
-            this.btnGuardar.Location = new System.Drawing.Point(520, 494);
-            this.btnGuardar.Margin = new System.Windows.Forms.Padding(5);
-            this.btnGuardar.Name = "btnGuardar";
-            this.btnGuardar.Size = new System.Drawing.Size(181, 41);
-            this.btnGuardar.TabIndex = 19;
-            this.btnGuardar.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // pctCodQR
-            // 
-            this.pctCodQR.Location = new System.Drawing.Point(520, 294);
-            this.pctCodQR.Name = "pctCodQR";
-            this.pctCodQR.Size = new System.Drawing.Size(183, 178);
-            this.pctCodQR.TabIndex = 18;
-            this.pctCodQR.TabStop = false;
-            // 
-            // btnFoto
-            // 
-            this.btnFoto.ActiveBorderThickness = 1;
-            this.btnFoto.ActiveCornerRadius = 20;
-            this.btnFoto.ActiveFillColor = System.Drawing.Color.Transparent;
-            this.btnFoto.ActiveForecolor = System.Drawing.Color.Transparent;
-            this.btnFoto.ActiveLineColor = System.Drawing.Color.White;
-            this.btnFoto.BackColor = System.Drawing.Color.White;
-            this.btnFoto.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnFoto.BackgroundImage")));
-            this.btnFoto.ButtonText = "Tomar Foto";
-            this.btnFoto.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnFoto.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnFoto.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.btnFoto.IdleBorderThickness = 1;
-            this.btnFoto.IdleCornerRadius = 20;
-            this.btnFoto.IdleFillColor = System.Drawing.Color.White;
-            this.btnFoto.IdleForecolor = System.Drawing.Color.MidnightBlue;
-            this.btnFoto.IdleLineColor = System.Drawing.Color.MidnightBlue;
-            this.btnFoto.Location = new System.Drawing.Point(520, 232);
-            this.btnFoto.Margin = new System.Windows.Forms.Padding(5);
-            this.btnFoto.Name = "btnFoto";
-            this.btnFoto.Size = new System.Drawing.Size(181, 41);
-            this.btnFoto.TabIndex = 17;
-            this.btnFoto.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // btnGenerar
-            // 
-            this.btnGenerar.ActiveBorderThickness = 1;
-            this.btnGenerar.ActiveCornerRadius = 20;
-            this.btnGenerar.ActiveFillColor = System.Drawing.Color.Transparent;
-            this.btnGenerar.ActiveForecolor = System.Drawing.Color.Transparent;
-            this.btnGenerar.ActiveLineColor = System.Drawing.Color.White;
-            this.btnGenerar.BackColor = System.Drawing.Color.White;
-            this.btnGenerar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnGenerar.BackgroundImage")));
-            this.btnGenerar.ButtonText = "Generar";
-            this.btnGenerar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnGenerar.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnGenerar.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.btnGenerar.IdleBorderThickness = 1;
-            this.btnGenerar.IdleCornerRadius = 20;
-            this.btnGenerar.IdleFillColor = System.Drawing.Color.White;
-            this.btnGenerar.IdleForecolor = System.Drawing.Color.MidnightBlue;
-            this.btnGenerar.IdleLineColor = System.Drawing.Color.MidnightBlue;
-            this.btnGenerar.Location = new System.Drawing.Point(222, 431);
-            this.btnGenerar.Margin = new System.Windows.Forms.Padding(5);
-            this.btnGenerar.Name = "btnGenerar";
-            this.btnGenerar.Size = new System.Drawing.Size(181, 41);
-            this.btnGenerar.TabIndex = 16;
-            this.btnGenerar.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.btnGenerar.Click += new System.EventHandler(this.btnGenerar_Click);
-            // 
-            // pctFotoEst
-            // 
-            this.pctFotoEst.Location = new System.Drawing.Point(518, 39);
-            this.pctFotoEst.Name = "pctFotoEst";
-            this.pctFotoEst.Size = new System.Drawing.Size(183, 178);
-            this.pctFotoEst.TabIndex = 15;
-            this.pctFotoEst.TabStop = false;
-            // 
-            // cmbProgramaEst
-            // 
-            this.cmbProgramaEst.Font = new System.Drawing.Font("Perpetua", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmbProgramaEst.FormattingEnabled = true;
-            this.cmbProgramaEst.Items.AddRange(new object[] {
-            "Administración de Empresas",
-            "Contaduría Pública",
-            "Mercadeo",
-            "Negocios Internacionales",
-            "Tecnología en Gestión del Talento Humano",
-            "Tecnología en Gestión Empresarial",
-            "Tecnología en Mercadeo y Ventas",
-            "Tecnología en Gestión de Negocios Internacionales",
-            "Ingeniería Electrónica",
-            "Ingeniería Industrial",
-            "Ingeniería de Sistemas",
-            "Tecnología en Sistemas",
-            "Ingeniería en Inteligencia de Negocios",
-            "Animación",
-            "Artes Visuales",
-            "Diseño Gráfico",
-            "Diseño de Modas",
-            "Realización y Producción Musical",
-            "Tecnología en Diseño Gráfico",
-            "Tecnología en Producción de Moda"});
-            this.cmbProgramaEst.Location = new System.Drawing.Point(191, 369);
-            this.cmbProgramaEst.Name = "cmbProgramaEst";
-            this.cmbProgramaEst.Size = new System.Drawing.Size(271, 31);
-            this.cmbProgramaEst.TabIndex = 14;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft PhagsPa", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(6, 375);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(85, 22);
-            this.label6.TabIndex = 13;
-            this.label6.Text = "Programa";
-            // 
-            // txtCodEst
-            // 
-            this.txtCodEst.Font = new System.Drawing.Font("Perpetua", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCodEst.Location = new System.Drawing.Point(191, 303);
-            this.txtCodEst.Name = "txtCodEst";
-            this.txtCodEst.Size = new System.Drawing.Size(271, 30);
-            this.txtCodEst.TabIndex = 12;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft PhagsPa", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(6, 304);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(149, 22);
-            this.label5.TabIndex = 9;
-            this.label5.Text = "Código Estudiantil";
-            // 
-            // txtCorreoEst
-            // 
-            this.txtCorreoEst.Font = new System.Drawing.Font("Perpetua", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCorreoEst.Location = new System.Drawing.Point(191, 232);
-            this.txtCorreoEst.Name = "txtCorreoEst";
-            this.txtCorreoEst.Size = new System.Drawing.Size(271, 30);
-            this.txtCorreoEst.TabIndex = 8;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft PhagsPa", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(-3, 238);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(160, 22);
-            this.label4.TabIndex = 7;
-            this.label4.Text = "Correo Institucional";
-            // 
-            // txtIdentificacionEst
-            // 
-            this.txtIdentificacionEst.Font = new System.Drawing.Font("Perpetua", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtIdentificacionEst.Location = new System.Drawing.Point(259, 164);
-            this.txtIdentificacionEst.Name = "txtIdentificacionEst";
-            this.txtIdentificacionEst.Size = new System.Drawing.Size(203, 30);
-            this.txtIdentificacionEst.TabIndex = 6;
-            // 
-            // cmbIdentificacionEst
-            // 
-            this.cmbIdentificacionEst.Font = new System.Drawing.Font("Perpetua", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmbIdentificacionEst.FormattingEnabled = true;
-            this.cmbIdentificacionEst.Items.AddRange(new object[] {
-            "C.C",
-            "C.E",
-            "PEP"});
-            this.cmbIdentificacionEst.Location = new System.Drawing.Point(191, 164);
-            this.cmbIdentificacionEst.Name = "cmbIdentificacionEst";
-            this.cmbIdentificacionEst.Size = new System.Drawing.Size(62, 31);
-            this.cmbIdentificacionEst.TabIndex = 5;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft PhagsPa", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(6, 170);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(112, 22);
-            this.label3.TabIndex = 4;
-            this.label3.Text = "Identificación";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft PhagsPa", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(6, 109);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(79, 22);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "Apellidos";
-            // 
-            // lblNombre
-            // 
-            this.lblNombre.AutoSize = true;
-            this.lblNombre.Font = new System.Drawing.Font("Microsoft PhagsPa", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNombre.Location = new System.Drawing.Point(6, 45);
-            this.lblNombre.Name = "lblNombre";
-            this.lblNombre.Size = new System.Drawing.Size(73, 22);
-            this.lblNombre.TabIndex = 2;
-            this.lblNombre.Text = "Nombre";
-            // 
-            // txtApellidoEst
-            // 
-            this.txtApellidoEst.Font = new System.Drawing.Font("Perpetua", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtApellidoEst.Location = new System.Drawing.Point(191, 103);
-            this.txtApellidoEst.Name = "txtApellidoEst";
-            this.txtApellidoEst.Size = new System.Drawing.Size(271, 30);
-            this.txtApellidoEst.TabIndex = 1;
-            // 
-            // txtNombreEst
-            // 
-            this.txtNombreEst.Font = new System.Drawing.Font("Perpetua", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNombreEst.Location = new System.Drawing.Point(191, 39);
-            this.txtNombreEst.Name = "txtNombreEst";
-            this.txtNombreEst.Size = new System.Drawing.Size(271, 30);
-            this.txtNombreEst.TabIndex = 0;
-            // 
             // cmbLista
             // 
             this.cmbLista.FormattingEnabled = true;
@@ -862,12 +863,12 @@ namespace Registro
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.grpFormulario.ResumeLayout(false);
             this.grpFormulario.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pctCodQR)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctFotoEst)).EndInit();
             this.grpFormulario2.ResumeLayout(false);
             this.grpFormulario2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pctCodQR)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pctFotoEst)).EndInit();
             this.grpE.ResumeLayout(false);
             this.grpE.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pctLogo)).EndInit();
