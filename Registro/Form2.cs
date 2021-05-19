@@ -96,6 +96,7 @@ namespace Registro
 
            Bitmap imagenQR = codigoQR.GetGraphic(2, Color.DarkBlue, Color.White, true);
             pctCodQR.Image = imagenQR; 
+<<<<<<< HEAD
         }
 
         private void btnGuardar_Click(object sender, EventArgs e)
@@ -111,5 +112,15 @@ namespace Registro
 
             Console.WriteLine($"SQLite version: {version}");
         }
+=======
+        }
+
+        private void btnGuardar_Click(object sender, EventArgs e)
+        {
+            FormValidacion validacion = new FormValidacion();
+            validacion.Show();
+            this.Hide();
+        }
+>>>>>>> validacion
     }
 }
