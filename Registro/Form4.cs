@@ -20,7 +20,7 @@ namespace Registro
             InitializeComponent();
         }
 
-        //identificar los dispositivos de grabación conectados al equipo
+        //Variqables para identificar los dispositivos de grabación conectados al equipo
         FilterInfoCollection filterInfoCollection;
         VideoCaptureDevice capturarVideo;
 
@@ -30,13 +30,14 @@ namespace Registro
             if (MessageBox.Show("¿Desea cerrar la aplicación?", "Confirmación", MessageBoxButtons.YesNo, MessageBoxIcon.Information) == DialogResult.Yes)
                 Application.Exit();
             else
-                    return;
+                return;
         }
 
         private void FormValidacion_Load(object sender, EventArgs e)
         {
             txtInfoEst.Text = "";
 
+            //obtener el nombre de los dispositivos conectados
             filterInfoCollection = new FilterInfoCollection(FilterCategory.VideoInputDevice);
             foreach (FilterInfo filterInfo in filterInfoCollection)
                 cmbCamara.Items.Add(filterInfo.Name);
@@ -52,6 +53,7 @@ namespace Registro
 
         private void btnValidar_Click(object sender, EventArgs e)
         {
+            //Activar el video y empezar el timer para reproducir o clonar un Frame por segundo
             capturarVideo = new VideoCaptureDevice(filterInfoCollection[cmbCamara.SelectedIndex].MonikerString);
             capturarVideo.NewFrame += CaptureDevice_NewFrame;
             capturarVideo.Start();
@@ -63,6 +65,7 @@ namespace Registro
             pctEscanear.Image = (Bitmap)eventArgs.Frame.Clone();
         }
 
+        //Si el formulario se está cerrando detener la captura de video
         private void FormValidacion_FormClosing(object sender, FormClosingEventArgs e)
         {
             if (capturarVideo.IsRunning)
