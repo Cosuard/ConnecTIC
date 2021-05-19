@@ -96,5 +96,12 @@ namespace Registro
            Bitmap imagenQR = codigoQR.GetGraphic(2, Color.DarkBlue, Color.White, true);
             pctCodQR.Image = imagenQR; 
         }
+
+        private void btnGuardar_Click(object sender, EventArgs e)
+        {
+            FormValidacion validacion = new FormValidacion();
+            validacion.Show();
+            this.Hide();
+        }
     }
 }
