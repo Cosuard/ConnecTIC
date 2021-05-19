@@ -76,22 +76,13 @@ namespace Registro
                 BarcodeReader barcodeReader = new BarcodeReader();
                 Result resultado = barcodeReader.Decode((Bitmap)pctEscanear.Image);
                 if (resultado != null) 
-                {
-                    
+                {                  
                     txtInfoEst.Text = resultado.ToString();
-                    MessageBox.Show("Está autorizado para ingresar", "Autorización", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                    MessageBox.Show("Está autorizado para ingresar", "Autorización", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     timer1.Stop();
                     if (capturarDispositivos.IsRunning) 
-                    {
                         capturarDispositivos.Stop();
-                    }
-                        
-
-                   
-
-
                 }
-
             }
         }
     }
