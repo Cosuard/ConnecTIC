@@ -1,0 +1,14 @@
+C:\Users\Cosuard\Desktop\IUSH\Repo\ConnecTIC - Copy\Registro\bin\Debug\Registro.exe.config
+C:\Users\Cosuard\Desktop\IUSH\Repo\ConnecTIC - Copy\Registro\bin\Debug\Registro.exe
+C:\Users\Cosuard\Desktop\IUSH\Repo\ConnecTIC - Copy\Registro\bin\Debug\Registro.pdb
+C:\Users\Cosuard\Desktop\IUSH\Repo\ConnecTIC - Copy\Registro\bin\Debug\QRCoder.dll
+C:\Users\Cosuard\Desktop\IUSH\Repo\ConnecTIC - Copy\Registro\obj\Debug\ConnecTIC.csprojAssemblyReference.cache
+C:\Users\Cosuard\Desktop\IUSH\Repo\ConnecTIC - Copy\Registro\obj\Debug\Registro.Form1.resources
+C:\Users\Cosuard\Desktop\IUSH\Repo\ConnecTIC - Copy\Registro\obj\Debug\Registro.Form2.resources
+C:\Users\Cosuard\Desktop\IUSH\Repo\ConnecTIC - Copy\Registro\obj\Debug\Registro.Form3.resources
+C:\Users\Cosuard\Desktop\IUSH\Repo\ConnecTIC - Copy\Registro\obj\Debug\Registro.Properties.Resources.resources
+C:\Users\Cosuard\Desktop\IUSH\Repo\ConnecTIC - Copy\Registro\obj\Debug\ConnecTIC.csproj.GenerateResource.cache
+C:\Users\Cosuard\Desktop\IUSH\Repo\ConnecTIC - Copy\Registro\obj\Debug\ConnecTIC.csproj.CoreCompileInputs.cache
+C:\Users\Cosuard\Desktop\IUSH\Repo\ConnecTIC - Copy\Registro\obj\Debug\ConnecTIC.csproj.CopyComplete
+C:\Users\Cosuard\Desktop\IUSH\Repo\ConnecTIC - Copy\Registro\obj\Debug\Registro.exe
+C:\Users\Cosuard\Desktop\IUSH\Repo\ConnecTIC - Copy\Registro\obj\Debug\Registro.pdb
